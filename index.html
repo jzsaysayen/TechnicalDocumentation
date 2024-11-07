@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>JavaScript Documentation</header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#Variables">Variables</a>
+        <a class="nav-link" href="#Data_Types">Data Types</a>
+        <a class="nav-link" href="#Function">Function</a>
+        <a class="nav-link" href="#Loops">Loops</a>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>JavaScript is a interpreted compiled programming language with first class functions.</p>
+            <p>It is a language characterized as dynamic, weakly typed, prototyped-based, and multi-paradigm.</p>
+            <p>JavaScript is mostly known as the scripting language for Web pages, but it is also applied in non-browser environments as well.</p>
+            <p>Modern JavaScript has been through a lot of development all through out the years.</p>
+            <p>From building APIs to handling user interactions, JavaScript remains essential for web developers.</p>
+        </section>
+        <section class="main-section" id="Variables">
+            <header>Variables</header>
+            <p>In JavaScript, variables are containers for storing data types. There are three ways in declaring a variable:</p>
+            <ul>
+                <li><code>var</code> - For declaring variables globally or function-scoped.</li>
+                <li><code>let</code> - Block-scoped variables introduced in ES6</li>
+                <li><code>const</code> - Block-scoped constants, also introduced in ES6</li>
+            </ul>
+            <p>Variables are important because they store data we need to manipulate in our programs.</p>
+            <p>You should always declare variables before using them to avoid potential errors.</p>
+        </section>
+        <section class="main-section" id="Data_Types">
+            <header>Data Types</header>
+            <p>JavaScript provides different data tpyes to hold different types of values. There are two main categories of data types:</p>
+            <ul>
+                <li>
+                    <strong>Primitive Data Types: </strong><code>String</code>, <code>Number</code>, <code>Boolean</code>, <code>Null</code>, <code>Undefined</code>, <code>Symbol</code>.
+                </li>
+                <li>
+                    <strong>Non-Primitive Data Types: </strong><code>Object</code>, <code>Array</code>, <code>Function</code>.
+                </li>
+            </ul>
+            <p>Each data type is treated differently in the way it is stored and manipulated in JavaScript.</p>
+            <p>Knowing the difference between these types helps to avoid unexpected behaviors coding.</p>
+        </section>
+        <section class="main-section" id="Function">
+            <header>Function</header>
+            <p>A JavaScript function is a block of a code designed to perform a particular task. A function is executed when it is called.</p>
+            <p>JavaScript functions are defined using the <code>function</code> keyword:</p>
+            <pre><code>
+                function myFunction() {
+                    console.log('Hello World!');
+                }
+            </code></pre>
+            <p>Functions can accept parameters and return values:</p>
+            <pre><code>
+                function sum(a+b) {
+                    return a+b;
+                }
+            </code></pre>
+            <p>Functions are reusable pieces of code, making them an essential tool for reducing code redundancy and improving its maintainability.</p>
+        </section>
+        <section class="main-section" id="Loops">
+            <header>Loops</header>
+            <p>Loops are used in JavaScript to perform repeated tasks based on its condition. Loops will continue to execute until the defined conditioned is returned as false.</p>
+            <p>JavaScript supports several types of loops:</p>
+            <ul>
+                <li><code>for</code> loop</li>
+                <li><code>while</code> loop</li>
+                <li><code>do while</code> loop</li>
+                <li><code>for in</code> loop</li>
+                <li><code>for of</code> loop</li>
+            </ul>
+            <p>the <code>for</code> loop is commonly used in JavaScript:</p>
+            <pre><code>
+                for (let i=0; i<5; i++) {
+                    console.log(i);
+                }
+            </code></pre>
+        </section>
+    </main>
+</body>
+</html>
